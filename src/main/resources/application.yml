@@ -1,0 +1,10 @@
+server:
+  port: 8888
+Spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:C:\Users\Anderson\Documents\infnet
