@@ -1,0 +1,8 @@
+microservice:
+  example:
+    greeting: "Hello!"
+  jwt:
+    secret: "435435435"
+  datasource:
+    user: "root"
+    pass: "123456"
