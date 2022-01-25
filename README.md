@@ -6,6 +6,6 @@ O projeto configServer é pra ser usado em conjunto com eurekaServer, batalha e 
 
 configServer tem o objetivo de buscar algumas informações utilizadas pelo projeto batalhas, tais como credenciais de acesso ao banco, driver, etc. O arquivo acessado pelo configServer está dentro da pasta infnet.
 
-Para utilizá-lo, será necessário um ambiente java para subir a aplicação, e caso necessário, alterar o caminho da pasta infnet (dentro do projeto configServer) e o arquivo dentro da pasta infnet(conforme as suas configurações), além de ter o MySql instalado.
+Para utilizá-lo, será necessário um ambiente java (com a versão 11 do java) para subir a aplicação, e caso necessário, alterar o caminho da pasta infnet (dentro do projeto configServer) e o arquivo dentro da pasta infnet(conforme as suas configurações), além de ter o MySql instalado.
 
 É necessário que esse serviço seja iniciado antes dos serviços de batalha e rolldice.
